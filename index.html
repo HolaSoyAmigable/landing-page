@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Abdel Utrilla Velázquez | Futuro Backend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <nav class="nav-container">
+            <a href="#" class="logo-link">
+                <img class="logo" src="imagenes/logo.jpg" alt="Logo Oscar Abdel" width="45" height="45" onerror="this.src='https://via.placeholder.com/45/2a0b4c/ffffff?text=OA'">
+            </a>
+
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú de navegación">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#lenguajes">Lenguajes</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#motivaciones">Motivaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi">
+            <div class="sobre-mi-container">
+                <div class="sobre-mi-texto">
+                    <p class="hero-sub">Hola, soy Oscar Abdel Utrilla Velázquez</p>
+                    <h1 class="hero-titulo">Oscar Abdel.<br>Futuro Backend</h1>
+                    <p class="hero-descripcion">
+                        Soy estudiante de Ingeniería en Tecnologías de la Información en la Universidad Politécnica de Chiapas. Me apasiona el desarrollo de software, la lógica de programación y la creación de soluciones tecnológicas eficientes, escalables y orientadas a resolver problemas reales.
+                    </p>
+                    <div>
+                        <a href="#proyectos" class="btn-cta">Ver mis proyectos</a>
+                    </div>
+                </div>
+                
+                <div class="sobre-mi-foto-wrapper">
+                    <div class="sobre-mi-foto-marco">
+                        <div class="marco-back-2"></div>
+                        <div class="marco-back-1"></div>
+                        <img class="perfil-img" src="imagenes/yo.jpeg" alt="Oscar Abdel Utrilla Velázquez" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="perfil-placeholder" style="display:none;">foto mia</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LENGUAJES DE PROGRAMACIÓN -->
+        <section id="lenguajes">
+            <h2 class="titulo-seccion">Lenguajes de Programación</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="imagenes/c++.png" alt="C++" width="35" height="35" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg';">
+                    <p>C++</p>
+                </div>
+                <div class="skill-card">
+                    <img src="imagenes/C.png" alt="C" width="35" height="35" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg';">
+                    <p>C</p>
+                </div>
+                <div class="skill-card">
+                    <img src="imagenes/java.png" alt="Java" width="35" height="35" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg';">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <img src="imagenes/python.png" alt="Python" width="35" height="35" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg';">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="imagenes/html.png" alt="HTML" width="35" height="35" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                    <img src="imagenes/js.png" alt="JavaScript" width="35" height="35" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg';">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MIS PROYECTOS -->
+        <section id="proyectos">
+            <h2 class="titulo-seccion">Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <div class="proyecto-info">
+                        <h3 class="proyecto-titulo">Proyecto integrador</h3>
+                        <p class="proyecto-desc">Desarrollo y diseño de una solución tecnológica integral como parte de mi formación académica en la Universidad Politécnica de Chiapas, aplicando buenas prácticas de ingeniería de software.</p>
+                        <span class="proyecto-tech-single">Logica de Programacion</span>
+                    </div>
+                </div>
+                <div class="proyecto-card">
+                    <div class="proyecto-info">
+                        <h3 class="proyecto-titulo">Proyecto IA local</h3>
+                        <p class="proyecto-desc">Participé activamente en el desarrollo de un software destinado a integrar una inteligencia artificial local con una base de datos mediante un backend, permitiendo la implementación de una interfaz de chat para la interacción con el sistema.</p>
+                        <span class="proyecto-tech-single">Logica de Programacion</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MOTIVACIONES -->
+        <section id="motivaciones">
+            <h2 class="titulo-seccion">Motivaciones</h2>
+            <div class="motivaciones-card">
+                <p>
+                    Me apasiona el desarrollo backend, ya que considero que constituye el motor fundamental que permite el correcto funcionamiento de los sistemas. Si bien el diseño representa la parte visible de una aplicación, el backend es responsable de garantizar su seguridad, rendimiento, estabilidad y capacidad para gestionar grandes volúmenes de información de manera eficiente.
+                </p>
+                <p>
+                    Me motiva comprender a profundidad cómo se integran los distintos componentes de un sistema, diseñar y estructurar bases de datos eficientes, así como desarrollar la lógica que sustenta cada aplicación. Mi objetivo es construir soluciones sólidas, escalables y eficientes que sirvan como base para el desarrollo de proyectos tecnológicos funcionales y de alto impacto.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
